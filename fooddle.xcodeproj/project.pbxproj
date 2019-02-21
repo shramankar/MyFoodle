@@ -1,0 +1,542 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4704A60821ED3B8B0069AE37 /* findTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4704A60721ED3B8B0069AE37 /* findTwoViewController.swift */; };
+		4704A62621F41D8C0069AE37 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4704A62521F41D8C0069AE37 /* WelcomeViewController.swift */; };
+		4704A62921F51A770069AE37 /* myDonationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4704A62721F51A770069AE37 /* myDonationsViewController.swift */; };
+		470DECD6221D184F002F33D7 /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 470DECD5221D184F002F33D7 /* Inceptionv3.mlmodel */; };
+		4712D27621DC7E2200196F7E /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4712D27521DC7E2200196F7E /* MapKit.framework */; };
+		47202DD121DEFB6000052AF8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 47202DD021DEFB6000052AF8 /* GoogleService-Info.plist */; };
+		4746331B21E3F4B10094930C /* Donations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4746331A21E3F4B10094930C /* Donations.swift */; };
+		4760BAE021DBCAAE0036F486 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4760BADF21DBCAAE0036F486 /* AppDelegate.swift */; };
+		4760BAE521DBCAAE0036F486 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4760BAE321DBCAAE0036F486 /* Main.storyboard */; };
+		4760BAE721DBCAB00036F486 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4760BAE621DBCAB00036F486 /* Assets.xcassets */; };
+		4760BAEA21DBCAB00036F486 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4760BAE821DBCAB00036F486 /* LaunchScreen.storyboard */; };
+		4760BAF221DBCB640036F486 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4760BAF121DBCB640036F486 /* RegisterViewController.swift */; };
+		4760BAF421DBCBC50036F486 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4760BAF321DBCBC50036F486 /* LoginViewController.swift */; };
+		4760BAF621DBCC3B0036F486 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4760BAF521DBCC3B0036F486 /* DashboardViewController.swift */; };
+		477B640221DFE5BD009231E8 /* findOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477B640121DFE5BD009231E8 /* findOneViewController.swift */; };
+		4781BD2F220FC6990013214D /* foodTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4781BD2E220FC6990013214D /* foodTableViewController.swift */; };
+		47A5F11521DD59970083F505 /* donateOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A5F11421DD59970083F505 /* donateOneViewController.swift */; };
+		47D0B0AE2214D40A00118CD3 /* thankYouViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D0B0AD2214D40A00118CD3 /* thankYouViewController.swift */; };
+		820F05C20BC9DB92B40D49EB /* Pods_fooddle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20F0F004ADDCCDB6B2F9EEEF /* Pods_fooddle.framework */; };
+		F496E7C221E6F40D006F238C /* donationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F496E7C021E6F40D006F238C /* donationCell.swift */; };
+		F496E7C321E6F40D006F238C /* donationCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F496E7C121E6F40D006F238C /* donationCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		01D357C1D1D40724BD413838 /* Pods-fooddle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fooddle.debug.xcconfig"; path = "Pods/Target Support Files/Pods-fooddle/Pods-fooddle.debug.xcconfig"; sourceTree = "<group>"; };
+		20F0F004ADDCCDB6B2F9EEEF /* Pods_fooddle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_fooddle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4704A60721ED3B8B0069AE37 /* findTwoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = findTwoViewController.swift; sourceTree = "<group>"; };
+		4704A62521F41D8C0069AE37 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		4704A62721F51A770069AE37 /* myDonationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myDonationsViewController.swift; sourceTree = "<group>"; };
+		470DECD5221D184F002F33D7 /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
+		4712D27421DC7DB000196F7E /* fooddle.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = fooddle.entitlements; sourceTree = "<group>"; };
+		4712D27521DC7E2200196F7E /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		47202DD021DEFB6000052AF8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		4746331A21E3F4B10094930C /* Donations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Donations.swift; sourceTree = "<group>"; };
+		4760BADC21DBCAAE0036F486 /* fooddle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fooddle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4760BADF21DBCAAE0036F486 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4760BAE421DBCAAE0036F486 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4760BAE621DBCAB00036F486 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4760BAE921DBCAB00036F486 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4760BAEB21DBCAB00036F486 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4760BAF121DBCB640036F486 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		4760BAF321DBCBC50036F486 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		4760BAF521DBCC3B0036F486 /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		477B640121DFE5BD009231E8 /* findOneViewController.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = findOneViewController.swift; sourceTree = "<group>"; };
+		4781BD2E220FC6990013214D /* foodTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = foodTableViewController.swift; sourceTree = "<group>"; };
+		47A5F11421DD59970083F505 /* donateOneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = donateOneViewController.swift; sourceTree = "<group>"; };
+		47D0B0AD2214D40A00118CD3 /* thankYouViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = thankYouViewController.swift; sourceTree = "<group>"; };
+		B36231D138D27131103CC481 /* Pods-fooddle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fooddle.release.xcconfig"; path = "Pods/Target Support Files/Pods-fooddle/Pods-fooddle.release.xcconfig"; sourceTree = "<group>"; };
+		F496E7C021E6F40D006F238C /* donationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = donationCell.swift; sourceTree = "<group>"; };
+		F496E7C121E6F40D006F238C /* donationCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = donationCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4760BAD921DBCAAE0036F486 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4712D27621DC7E2200196F7E /* MapKit.framework in Frameworks */,
+				820F05C20BC9DB92B40D49EB /* Pods_fooddle.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3558291797EAC014B3E77D30 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4712D27521DC7E2200196F7E /* MapKit.framework */,
+				20F0F004ADDCCDB6B2F9EEEF /* Pods_fooddle.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4760BAD321DBCAAE0036F486 = {
+			isa = PBXGroup;
+			children = (
+				4760BADE21DBCAAE0036F486 /* fooddle */,
+				4760BADD21DBCAAE0036F486 /* Products */,
+				807E72FD439CA0B5B10ABD54 /* Pods */,
+				3558291797EAC014B3E77D30 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4760BADD21DBCAAE0036F486 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4760BADC21DBCAAE0036F486 /* fooddle.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4760BADE21DBCAAE0036F486 /* fooddle */ = {
+			isa = PBXGroup;
+			children = (
+				4712D27421DC7DB000196F7E /* fooddle.entitlements */,
+				4760BAE321DBCAAE0036F486 /* Main.storyboard */,
+				47D0B0AD2214D40A00118CD3 /* thankYouViewController.swift */,
+				4781BD2E220FC6990013214D /* foodTableViewController.swift */,
+				47A5F11421DD59970083F505 /* donateOneViewController.swift */,
+				4760BADF21DBCAAE0036F486 /* AppDelegate.swift */,
+				4746331A21E3F4B10094930C /* Donations.swift */,
+				470DECD5221D184F002F33D7 /* Inceptionv3.mlmodel */,
+				4704A62721F51A770069AE37 /* myDonationsViewController.swift */,
+				4704A62521F41D8C0069AE37 /* WelcomeViewController.swift */,
+				4704A60721ED3B8B0069AE37 /* findTwoViewController.swift */,
+				477B640121DFE5BD009231E8 /* findOneViewController.swift */,
+				F496E7C021E6F40D006F238C /* donationCell.swift */,
+				F496E7C121E6F40D006F238C /* donationCell.xib */,
+				4760BAF521DBCC3B0036F486 /* DashboardViewController.swift */,
+				4760BAF321DBCBC50036F486 /* LoginViewController.swift */,
+				4760BAF121DBCB640036F486 /* RegisterViewController.swift */,
+				4760BAE621DBCAB00036F486 /* Assets.xcassets */,
+				4760BAE821DBCAB00036F486 /* LaunchScreen.storyboard */,
+				4760BAEB21DBCAB00036F486 /* Info.plist */,
+				47202DD021DEFB6000052AF8 /* GoogleService-Info.plist */,
+			);
+			path = fooddle;
+			sourceTree = "<group>";
+		};
+		807E72FD439CA0B5B10ABD54 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				01D357C1D1D40724BD413838 /* Pods-fooddle.debug.xcconfig */,
+				B36231D138D27131103CC481 /* Pods-fooddle.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4760BADB21DBCAAE0036F486 /* fooddle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4760BAEE21DBCAB00036F486 /* Build configuration list for PBXNativeTarget "fooddle" */;
+			buildPhases = (
+				EBE99486CEAB5D754F2813F0 /* [CP] Check Pods Manifest.lock */,
+				4760BAD821DBCAAE0036F486 /* Sources */,
+				4760BAD921DBCAAE0036F486 /* Frameworks */,
+				4760BADA21DBCAAE0036F486 /* Resources */,
+				FC54D5C4F7055F85661C7218 /* [CP] Embed Pods Frameworks */,
+				5AA8F282D2CD5BEDE93382E9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = fooddle;
+			productName = fooddle;
+			productReference = 4760BADC21DBCAAE0036F486 /* fooddle.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4760BAD421DBCAAE0036F486 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "shraman kar";
+				TargetAttributes = {
+					4760BADB21DBCAAE0036F486 = {
+						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+							com.apple.WAC = {
+								enabled = 0;
+							};
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 4760BAD721DBCAAE0036F486 /* Build configuration list for PBXProject "fooddle" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4760BAD321DBCAAE0036F486;
+			productRefGroup = 4760BADD21DBCAAE0036F486 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4760BADB21DBCAAE0036F486 /* fooddle */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4760BADA21DBCAAE0036F486 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4760BAEA21DBCAB00036F486 /* LaunchScreen.storyboard in Resources */,
+				F496E7C321E6F40D006F238C /* donationCell.xib in Resources */,
+				47202DD121DEFB6000052AF8 /* GoogleService-Info.plist in Resources */,
+				4760BAE721DBCAB00036F486 /* Assets.xcassets in Resources */,
+				4760BAE521DBCAAE0036F486 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5AA8F282D2CD5BEDE93382E9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-fooddle/Pods-fooddle-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseFirestore/gRPCCertificates-Firestore.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/gRPCCertificates-Firestore.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-fooddle/Pods-fooddle-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EBE99486CEAB5D754F2813F0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-fooddle-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC54D5C4F7055F85661C7218 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-fooddle/Pods-fooddle-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL/openssl.framework",
+				"${BUILT_PRODUCTS_DIR}/ChameleonFramework/ChameleonFramework.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-C++/grpcpp.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ChameleonFramework.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpcpp.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-fooddle/Pods-fooddle-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4760BAD821DBCAAE0036F486 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				477B640221DFE5BD009231E8 /* findOneViewController.swift in Sources */,
+				4704A62621F41D8C0069AE37 /* WelcomeViewController.swift in Sources */,
+				F496E7C221E6F40D006F238C /* donationCell.swift in Sources */,
+				4704A60821ED3B8B0069AE37 /* findTwoViewController.swift in Sources */,
+				4781BD2F220FC6990013214D /* foodTableViewController.swift in Sources */,
+				4760BAF421DBCBC50036F486 /* LoginViewController.swift in Sources */,
+				4704A62921F51A770069AE37 /* myDonationsViewController.swift in Sources */,
+				4746331B21E3F4B10094930C /* Donations.swift in Sources */,
+				47D0B0AE2214D40A00118CD3 /* thankYouViewController.swift in Sources */,
+				4760BAF221DBCB640036F486 /* RegisterViewController.swift in Sources */,
+				47A5F11521DD59970083F505 /* donateOneViewController.swift in Sources */,
+				4760BAF621DBCC3B0036F486 /* DashboardViewController.swift in Sources */,
+				4760BAE021DBCAAE0036F486 /* AppDelegate.swift in Sources */,
+				470DECD6221D184F002F33D7 /* Inceptionv3.mlmodel in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4760BAE321DBCAAE0036F486 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4760BAE421DBCAAE0036F486 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4760BAE821DBCAB00036F486 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4760BAE921DBCAB00036F486 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4760BAEC21DBCAB00036F486 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4760BAED21DBCAB00036F486 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4760BAEF21DBCAB00036F486 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01D357C1D1D40724BD413838 /* Pods-fooddle.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = fooddle/fooddle.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2Z6HZ96URK;
+				INFOPLIST_FILE = fooddle/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Com.Shramank.fooddle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4760BAF021DBCAB00036F486 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B36231D138D27131103CC481 /* Pods-fooddle.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = fooddle/fooddle.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2Z6HZ96URK;
+				INFOPLIST_FILE = fooddle/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Com.Shramank.fooddle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4760BAD721DBCAAE0036F486 /* Build configuration list for PBXProject "fooddle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4760BAEC21DBCAB00036F486 /* Debug */,
+				4760BAED21DBCAB00036F486 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4760BAEE21DBCAB00036F486 /* Build configuration list for PBXNativeTarget "fooddle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4760BAEF21DBCAB00036F486 /* Debug */,
+				4760BAF021DBCAB00036F486 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4760BAD421DBCAAE0036F486 /* Project object */;
+}
